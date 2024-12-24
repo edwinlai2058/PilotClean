@@ -3,12 +3,14 @@
 *Click on the picture to view our full presentation PDF*
 
 ## **Overview**
+
 PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Hardware Design and Lab, a class in NTHU. It leverages FPGA technology to combine the **flexibility of manual control** with the **efficiency of automatic cleaning**, addressing limitations in existing robot vacuums. The system integrates hardware and software innovations, including remote control functionality, infrared obstacle detection, and customizable speed settings.
----
+
 
 ## **Features**
 1. **App Control**:
    - Compatible with **Arduino Bluetooth Controller** for controlling movement, power, suction, mode selection, and speed levels (LOW, MID, HIGH).
+   ![PilotClean](https://raw.githubusercontent.com/vaclisinc/PilotClean/978926c5d1ac68aaf17ae9d00741dea61832b485/others/app_manual.jpg)
 
 2. **Dual Cleaning Modes**:
    - **Remote-Control Mode**: Operated via a smartphone app for precise spot cleaning.
