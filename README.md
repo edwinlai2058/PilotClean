@@ -4,33 +4,24 @@
 
 ## **Overview**
 PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Hardware Design and Lab, a class in NTHU. It leverages FPGA technology to combine the **flexibility of manual control** with the **efficiency of automatic cleaning**, addressing limitations in existing robot vacuums. The system integrates hardware and software innovations, including remote control functionality, infrared obstacle detection, and customizable speed settings.
-
 ---
 
 ## **Features**
-1. **Dual Cleaning Modes**:
-   - **Remote Control Mode**: Operate the robot directly using a mobile app for precise spot cleaning.
-   - **Random Mode**: Automatically clean using a Linear Feedback Shift Register (LFSR) for generating diverse random paths.
+1. **App Control**:
+   - Compatible with **Arduino Bluetooth Controller** for controlling movement, power, suction, mode selection, and speed levels (LOW, MID, HIGH).
 
-2. **Infrared Sensors**:
-   - Prevent collisions and getting stuck during cleaning.
+2. **Dual Cleaning Modes**:
+   - **Remote-Control Mode**: Operated via a smartphone app for precise spot cleaning.
+   - **Random Mode**: Uses Linear Feedback Shift Register (LFSR) for autonomous, random path generation.
 
-3. **Mobile App Control**:
-   - Adjust robot settings, including:
-     - Mode selection
-     - Direction control
-     - Power on/off
-     - Suction control
+3. **Obstacle Detection**:
+   - Infrared sensors detect and avoid obstacles to prevent collisions and ensure smooth operation.
 
-4. **Speed Settings**:
-   - Three adjustable speed levels for different cleaning needs.
+4. **Dust Collection**:
+   - Powered by an **8x8 12V 0.6A square fan** for efficient suction. The design eliminates the middle filter layer to enhance airflow while protecting internal components.
 
-5. **Dust Collection System**:
-   - Powered by an **8x8 12V square fan**, optimized for effective suction.
-   - Retains a protective masking layer to prevent dust intrusion while enhancing airflow.
-
-6. **Trash Disposal Method**:
-   - Manual return-to-home functionality allows the robot to deposit trash at a base station for easier maintenance.
+5. **Trash Disposal**:
+   - Features a **return-to-home system** for depositing trash at the base station, controlled via remote.
 
 ---
 
@@ -90,3 +81,4 @@ PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Ha
 
 ## **License**
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
