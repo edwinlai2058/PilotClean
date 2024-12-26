@@ -63,7 +63,7 @@ PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Ha
 ## **Usage**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/PilotClean.git
+   git clone https://github.com/vaclisinc/PilotClean.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -76,11 +76,5 @@ PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Ha
 ---
 
 ## **Team Members**
-- **Song-Ze, Yu**
-- **Yun-Zhong, Lai**
-
----
-
-## **License**
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
+- **Song-Ze, Yu** [(@vaclisinc)](http://github.com/vaclisinc): Verilog coding, prototype design, visual design, and report writing.
+- **Yun-Zhong, Lai** [(@edwinlai2058)](https://github.com/edwinlai2058): UART sub-module coding, hardware assembly, block diagrams, and report writing.
