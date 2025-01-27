@@ -4,7 +4,7 @@
 
 ## **Overview**
 
-PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Hardware Design and Lab, a class in NTHU. It leverages FPGA technology to combine the **flexibility of manual control** with the **efficiency of automatic cleaning**, addressing limitations in existing robot vacuums. The system integrates hardware and software innovations, including remote control functionality, infrared obstacle detection, and customizable speed settings.
+PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Hardware Design and Lab, a class in NTHU. It leverages FPGA technology to combine the **flexibility of manual control** with the **efficiency of automatic cleaning**, addressing limitations in existing robot vacuums. The system integrates hardware and software innovations, including remote control functionality, ultrasonic obstacle detection, and customizable speed settings.
 
 
 ## **Features**
@@ -17,7 +17,7 @@ PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Ha
    - **Random Mode**: Uses Linear Feedback Shift Register (LFSR) for autonomous, random path generation.
 
 3. **Obstacle Detection**:
-   - Infrared sensors detect and avoid obstacles to prevent collisions and ensure smooth operation.
+   - Ultrasonic sensors (HC-SR04) detect and avoid obstacles to prevent collisions and ensure smooth operation.
 
 4. **Dust Collection**:
    - Powered by an **8x8 12V 0.6A square fan** for efficient suction. The design eliminates the middle filter layer to enhance airflow while protecting internal components.
@@ -31,7 +31,7 @@ PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Ha
 - **Power Supply**: Three 18650 lithium-ion batteries connected in series, delivering a maximum voltage of 12V.
 - **Processing Unit**: FPGA board with a complex Dupont wiring setup.
 - **Communication**: Bluetooth modules (HC-05/HC-06) using the UART protocol.
-- **Motor Control**: Speed and direction adjustments using infrared sensors.
+- **Motor Control**: Speed and direction adjustments using ultrasonic sensors.
 
 ---
 
