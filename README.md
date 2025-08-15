@@ -77,4 +77,4 @@ PilotClean is a dual-mode cleaning robot designed and developed by Team 23 in Ha
 
 ## **Team Members**
 - **Song-Ze, Yu** [(@vaclisinc)](http://github.com/vaclisinc): Verilog coding, prototype design, visual design, and report writing.
-- **Yun-Zhong, Lai** [(@edwinlai2058)](https://github.com/edwinlai2058): UART sub-module coding, hardware assembly, block diagrams, and report writing.
+- **Yun-Chung, Lai** [(@edwinlai2058)](https://github.com/edwinlai2058): UART sub-module coding, hardware assembly, block diagrams, and report writing.
